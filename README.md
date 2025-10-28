@@ -212,14 +212,16 @@ ros2 launch turtlebot4_navigation nav2.launch.py
 
 #### 2. Launch UR10 #1 (Pickup Station)
 ```bash
-# On UR10 #1 control computer
-ros2 launch ur_robot_driver ur10_control.launch.py robot_ip:=<ur10_1_ip>
+# On UR10 #1 control computer go to the project folder and in there
+run the following command:
+ros2 launch dual_ur10.launch.py
 ```
 
 #### 3. Launch UR10 #2 (Delivery Station)
 ```bash
-# On UR10 #2 control computer
-ros2 launch ur_robot_driver ur10_control.launch.py robot_ip:=<ur10_2_ip>
+# On UR10 #2 control computer go to the project folder and in there
+run the following command:
+ros2 launch dual_ur10.launch.py
 ```
 
 #### 4. Run the Smart Factory Programs
